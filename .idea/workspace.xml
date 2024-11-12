@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2e22498-d9bb-46e6-8994-aa537222d03b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad_hic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_search/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_search/upper_bound.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instersection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/power.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_slack.py" afterDir="false" />
-    </list>
+    <list default="true" id="e2e22498-d9bb-46e6-8994-aa537222d03b" name="Changes" comment="codes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jayeshkeshri"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/keshri23jayesh/coding.git",
+    "accountId": "8c3def31-8f99-430e-8ba3-a4ff2155ca74"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2nrsvEmBKbUzrQDurn4W4TvhNLh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,8 +44,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ad_hic.executor": "Run",
+    "Python.all_indices.executor": "Run",
+    "Python.factorial.executor": "Run",
+    "Python.first_occurence.executor": "Run",
+    "Python.flood-fill.executor": "Run",
+    "Python.get-stair-path.executor": "Run",
+    "Python.get_maze_path.executor": "Debug",
+    "Python.get_sub_seq.executor": "Run",
     "Python.instersection.executor": "Run",
+    "Python.key-board-combination.executor": "Run",
+    "Python.knights_tour.executor": "Run",
+    "Python.last_occurence.executor": "Run",
+    "Python.maze_path_with_jump.executor": "Run",
+    "Python.n-queen.executor": "Run",
+    "Python.pdi.executor": "Run",
+    "Python.pow_x_n.executor": "Run",
     "Python.power.executor": "Run",
+    "Python.print_encodings.executor": "Run",
+    "Python.print_keyboard_combination.executor": "Run",
+    "Python.print_maze_path.executor": "Run",
+    "Python.print_maze_path_with_jump.executor": "Run",
+    "Python.print_permutation.executor": "Debug",
+    "Python.print_stair_path.executor": "Run",
+    "Python.print_subseq.executor": "Run",
+    "Python.subset_sum.executor": "Debug",
     "Python.test.executor": "Run",
     "Python.test_slack.executor": "Run",
     "Python.upper_bound.executor": "Run",
@@ -56,8 +75,8 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test_slack">
-    <configuration name="instersection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.knights_tour">
+    <configuration name="flood-fill" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codes" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recurssion-1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/instersection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recurssion-1/flood-fill.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="knights_tour" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codes" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recurssion-1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recurssion-1/knights_tour.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_slack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="n-queen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codes" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +129,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recurssion-1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_slack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recurssion-1/n-queen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="print_encodings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recurssion-1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recurssion-1/print_encodings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subset_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recurssion-1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recurssion-1/subset_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,9 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_slack" />
-        <item itemvalue="Python.instersection" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.knights_tour" />
+        <item itemvalue="Python.n-queen" />
+        <item itemvalue="Python.subset_sum" />
+        <item itemvalue="Python.flood-fill" />
+        <item itemvalue="Python.print_encodings" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +212,35 @@
       <option name="presentableId" value="Default" />
       <updated>1729742758067</updated>
     </task>
+    <task id="LOCAL-00001" summary="codes">
+      <option name="closed" value="true" />
+      <created>1731250682344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731250682344</updated>
+    </task>
+    <task id="LOCAL-00002" summary="codes">
+      <option name="closed" value="true" />
+      <created>1731250797929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731250797929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="codes">
+      <option name="closed" value="true" />
+      <created>1731250970071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731250970071</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="codes" />
   </component>
 </project>
