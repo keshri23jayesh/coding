@@ -13,6 +13,8 @@ class BST:
     def __init__(self):
         self.root = None
         self.value = []
+        self.path = []
+        self.found = False
 
     def _insert(self, node, key):
         if key < node.value:
@@ -47,6 +49,20 @@ class BST:
             self.value.append(node.value)
             return True
 
+    def nnode_to_root_path(self, elem, node):
+        if not node:
+            return False
+        if node.value == elem:
+            self.path.append(node)
+            self.found = True
+            return
+
+        if not self.found:
+            self.nnode_to_root_path(elem, node.left)
+        if not self.found:
+            self.nnode_to_root_path(elem, node.right)
+        if self.found:
+            self.path.append(node)
 
 bst = BST()
 
@@ -55,7 +71,9 @@ elements = [50, 25, 12, 37, 75, 62, 87, 90]
 for elem in elements:
     bst.insert(elem)
 
-print(bst.root)
+# print(bst.root)
 
-bst.node_to_root_path(bst.root, 62)
+# bst.node_to_root_path(bst.root, 62)
+bst.nnode_to_root_path(62, bst.root)
 print(bst.value)
+print(bst.path)
