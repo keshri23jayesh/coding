@@ -1,4 +1,4 @@
-# https://www.youtube.com/watch?v=S0Bwgtn32uI&list=PL-Jc9J83PIiHYxUk8dSu2_G7MR1PaGXN4&index=45
+# https://www.youtube.com/watch?v=CVXfXjuBM8I&list=PL-Jc9J83PIiHYxUk8dSu2_G7MR1PaGXN4&index=46
 
 class Node:
 
@@ -54,32 +54,36 @@ class BST:
         right_height = 1 + self.height(node.right)
         return max(left_height, right_height)
 
-    def diameter_optimised(self, node):
+    def tilt(self, node):
         if not node:
-            return 0
+            return 0, None
 
-        l_height = self.height(node.left)
-        r_height = self.height(node.right)
+        left_sum, left_node = self.tilt(node.left)
+        right_sum, right_node = self.tilt(node.right)
 
-        diameter = l_height + r_height
+        abs_diff = abs(left_sum-right_sum)
+        new_node = Node(abs_diff)
 
-        l_diameter = self.diameter(node.left)
-        r_diameter = self.diameter(node.right)
+        new_node.left = left_node
+        new_node.right = right_node
 
-        return max(l_diameter, r_diameter, diameter)
-        pass
-    
+        return left_sum + right_sum + node.value, new_node
 
-nodes = [28, 29, 61, 75, 90, 63, 96, 78, 43, 64, 7, 52, 46, 84, 59, 22, 74, 55, 16, 58]
 
 bst = BST()
+elements = [50, 25, 12, 37, 75, 62, 87]
+# elements = [50, 25, 75]
 
-for node in nodes:
-    bst.insert(node)
-print(bst.root)
+for elem in elements:
+    bst.insert(elem)
 
-# bst.level_order()
-bst.print_k_levels_far(value=75, level_far=3)
+data = bst.tilt(bst.root)
+print(data)
+
+
+
+
+
 
 
 
