@@ -63,8 +63,8 @@ class BST:
 
         diameter = l_height + r_height
 
-        l_diameter = self.diameter(node.left)
-        r_diameter = self.diameter(node.right)
+        l_diameter = self.diameter_optimised(node.left)
+        r_diameter = self.diameter_optimised(node.right)
 
         return max(l_diameter, r_diameter, diameter)
         pass
